@@ -2,19 +2,19 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: 'Blog-Post-548167cfdaab4c0e999c79333ab96f55',
+  rootNotionPageId: 'Xinwuyun-s-blog-e706da73001b49d08ce551388aa5045e',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Next.js Notion Starter Kit',
+  name: 'xinwuyun blog',
   domain: 'blog.xinwuyun.cloud',
   author: 'Zerui Wang',
 
   // open graph metadata (optional)
-  description: 'Example Next.js Notion Starter Kit Site',
+  description: 'xinwuyun\'s blog',
 
   // social usernames (optional)
   github: 'xinwuyun',
@@ -47,16 +47,16 @@ export default siteConfig({
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
-  navigationStyle: 'default'
+  //navigationStyle: 'default'
   navigationStyle: 'custom',
   navigationLinks: [
     {
       title: 'About',
-      pageId: 'Blog-Post-548167cfdaab4c0e999c79333ab96f55'
+      pageId: 'About-cc0447f176ac4aca9c0c04a31420ed12'
     },
     {
       title: 'Contact',
-      pageId: 'Blog-Post-548167cfdaab4c0e999c79333ab96f55'
+      pageId: 'Contact-25d7e7dfc81749aca58486405379c7f5'
     }
   ]
 })
