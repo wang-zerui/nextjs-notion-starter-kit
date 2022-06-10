@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'xinwuyun blog',
-  domain: 'blog.xinwuyun.cloud',
+  domain: 'blog.zr-wang.com',
   author: 'Zerui Wang',
 
   // open graph metadata (optional)
