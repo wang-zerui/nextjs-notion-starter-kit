@@ -21,31 +21,31 @@ export const getStaticProps = async (context) => {
 }
 
 export async function getStaticPaths() {
+  if (isDev) {
+    return {
+      paths: [],
+      fallback: true
+    }
+  }
+
+  const siteMap = await getSiteMap()
+
+  const staticPaths = {
+    paths: Object.keys(siteMap.canonicalPageMap).map((pageId) => ({
+      params: {
+        pageId
+      }
+    })),
+    // paths: [],
+    fallback: true
+  }
+
+  console.log(staticPaths.paths)
+  // return staticPaths
   return {
     paths: [],
     fallback: true
   }
-  // if (isDev) {
-  //   return {
-  //     paths: [],
-  //     fallback: true
-  //   }
-  // }
-
-  // const siteMap = await getSiteMap()
-
-  // const staticPaths = {
-  //   paths: Object.keys(siteMap.canonicalPageMap).map((pageId) => ({
-  //     params: {
-  //       pageId
-  //     }
-  //   })),
-  //   // paths: [],
-  //   fallback: true
-  // }
-
-  // console.log(staticPaths.paths)
-  // return staticPaths
 }
 
 export default function NotionDomainDynamicPage(props) {
