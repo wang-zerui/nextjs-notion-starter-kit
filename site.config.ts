@@ -51,6 +51,10 @@ export default siteConfig({
   navigationStyle: 'custom',
   navigationLinks: [
     {
+      title: 'Home',
+      pageId: 'Xinwuyun-s-blog-e706da73001b49d08ce551388aa5045e'
+    },
+    {
       title: 'About',
       pageId: 'About-66237998075a4eb198898f00aeb0c5e1'
     },

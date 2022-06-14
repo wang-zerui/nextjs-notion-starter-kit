@@ -45,6 +45,8 @@ export const inversePageUrlOverrides = invertPageUrlOverrides(pageUrlOverrides)
 
 export const environment = process.env.NODE_ENV || 'development'
 export const isDev = environment === 'development'
+// export const isDev = false;
+
 
 // general site config
 export const name: string = getSiteConfig('name')
@@ -84,7 +86,8 @@ export const isPreviewImageSupportEnabled: boolean = getSiteConfig(
 // Optional whether or not to include the Notion ID in page URLs or just use slugs
 export const includeNotionIdInUrls: boolean = getSiteConfig(
   'includeNotionIdInUrls',
-  !!isDev
+  true
+  // !!isDev
 )
 
 export const navigationStyle: NavigationStyle = getSiteConfig(
