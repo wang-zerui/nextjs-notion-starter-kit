@@ -106,11 +106,11 @@ body {
   /* --notion-font: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
     'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
     'Droid Sans', 'Helvetica Neue', 'Noto Sans', sans-serif; */
-  --base-Latin-font: "Latin Modern Roman", "Latin Modern Roman 10";
+  --base-Latin-font: "Latin Modern", "Latin Modern 10";
   --base-Chinese-font: "宋体-简", "华文宋体", "Noto Serif CJK SC";
-  --heading-Latin-font: "Latin Modern Roman 10 Bold";
+  --heading-Latin-font: "Latin Modern 10 Bold";
   --heading-Chinese-font: "华文黑体Medium";
-  --quote-font: "Latin Modern Roman", "Latin Modern Roman 10", Times,
+  --quote-font: "Latin Modern", "Latin Modern 10", Times,
     "Times New Roman", "华文仿宋";
   --quote-font-size: 12.5pt;
   --notion-font: var(--base-Latin-font), var(--base-Chinese-font), serif;
