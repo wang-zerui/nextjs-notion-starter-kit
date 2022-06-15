@@ -59,6 +59,7 @@
 }
 
 .notion-gallery-grid .notion-page-title-text {
+  font-family: var(--heading-Latin-font), var(--heading-Chinese-font), sans-serif;
   font-size: 2em;
   white-space: unset;
 }
@@ -115,16 +116,23 @@
 }
 
 .notion-quote {
+  font-family: var(--quote-font), var(--base-Latin-font), var(--base-Chinese-font), -apple-system, serif;
   padding: 0.2em 0.75em;
   line-height: 1.5;
-  font-style: italic;
-  font-size: 1.2em;
-  border-left: 4px solid #67bdfc;
+  font-size: var(--quote-font-size);
+  border-left: 0px solid #67bdfc;
+   /* 文字离左边框的距离 */
+   padding-left: 16px;
+   padding-right: 20pt;
+   /* 左边框离页面边的距离 */
+   margin-left: 20px;
 }
 
 .notion-h1,
 .notion-h2,
 .notion-h3 {
+  /* font-family: "Times New Roman", "黑体",sans-serif; */
+  font-family: var(--heading-Latin-font), var(--heading-Chinese-font), sans-serif;
   margin-bottom: 0.25em;
 }
 
@@ -162,6 +170,7 @@
 }
 
 .notion-title {
+  font-family: var(--heading-Latin-font), var(--heading-Chinese-font), sans-serif;
   display: block;
   text-align: center;
 }

@@ -6,6 +6,7 @@ import 'react-notion-x/src/styles.css'
 
 // used for rendering equations (optional)
 import 'katex/dist/katex.min.css'
+// import 'latex.css/style.css'
 
 // used for code syntax highlighting (optional)
 import 'prismjs/themes/prism-coy.css'

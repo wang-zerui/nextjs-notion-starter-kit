@@ -625,6 +625,11 @@
   resolved "https://registry.yarnpkg.com/@use-it/event-listener/-/event-listener-0.1.7.tgz#443a9b6df87f2f2961b74d42997ce723a7078623"
   integrity sha512-hgfExDzUU9uTRTPDCpw2s9jWTxcxmpJya3fK5ADpf5VDpSy8WYwY/kh28XE0tUcbsljeP8wfan48QvAQTSSa3Q==
 
+"@wc1font/source-han-serif-cn-vf@^1.0.11":
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/@wc1font/source-han-serif-cn-vf/-/source-han-serif-cn-vf-1.0.11.tgz#0c2f10bc305effeeb62002eb3f694069f16f44a2"
+  integrity sha512-FXihwj/msjW2somwdIDnQIWqE458Z7nywHoCoJOnHXE7SUGIjGJQTurWercRcaEIDad/Xec71mDnHRx7qq9/1A==
+
 "@xobotyi/scrollbar-width@^1.9.5":
   version "1.9.5"
   resolved "https://registry.npmjs.org/@xobotyi/scrollbar-width/-/scrollbar-width-1.9.5.tgz"
@@ -2132,6 +2137,11 @@ lambdafs@^2.0.2:
   integrity sha512-x5k8JcoJWkWLvCVBzrl4pzvkEHSgSBqFjg3Dpsc4AcTMq7oUMym4cL/gRTZ6VM4mUMY+M0dIbQ+V1c1tsqqanQ==
   dependencies:
     tar-fs "^2.1.1"
+
+latex.css@^1.7.1:
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/latex.css/-/latex.css-1.7.1.tgz#a5b95ee1966114157a6fd48f811211cbaf3648a9"
+  integrity sha512-BsWhOi0q0IQk2PbuAjWtiKw6YxnYoTNhzRQDTJj4Q08+qUDfU+HeDJIo3aidlLYR+bzbazhjGVOZ3HYHrvX8jw==
 
 levn@^0.4.1:
   version "0.4.1"
