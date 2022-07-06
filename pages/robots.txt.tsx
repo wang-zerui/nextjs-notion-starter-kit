@@ -16,7 +16,7 @@ export const getServerSideProps: GetServerSideProps = async ({ req, res }) => {
   // cache for up to one day
   res.setHeader('Cache-Control', 'public, max-age=86400, immutable')
   res.setHeader('Content-Type', 'text/plain')
-
+ 
   // only allow the site to be crawlable on the production deployment
   if (process.env.VERCEL_ENV === 'production') {
     res.write(`User-agent: *
