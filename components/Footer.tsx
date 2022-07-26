@@ -6,6 +6,8 @@ import { FaGithub } from '@react-icons/all-files/fa/FaGithub'
 import { FaLinkedin } from '@react-icons/all-files/fa/FaLinkedin'
 import { IoSunnyOutline } from '@react-icons/all-files/io5/IoSunnyOutline'
 import { IoMoonSharp } from '@react-icons/all-files/io5/IoMoonSharp'
+import Comments from './Comments.js'
+
 import * as config from 'lib/config'
 
 import styles from './styles.module.css'
@@ -30,6 +32,8 @@ export const FooterImpl: React.FC = () => {
 
   return (
     <footer className={styles.footer}>
+      <Comments />
+
       <div className={styles.copyright}>Copyright 2022 {config.author}</div>
 
       <div className={styles.settings}>
