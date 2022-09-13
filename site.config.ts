@@ -2,15 +2,16 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: 'Xinwuyun-s-blog-e706da73001b49d08ce551388aa5045e',
+  // rootNotionPageId: 'Xinwuyun-s-blog-e706da73001b49d08ce551388aa5045e',
+  rootNotionPageId: "xinwuyun-s-Blog-f47b6e868c0044f1a15fe766f6d68efb",
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
-  rootNotionSpaceId: null,
+  rootNotionSpaceId: "ccfbc34180f644e39732419d6a33755b",
 
   // basic site info (required)
   name: 'xinwuyun blog',
-  domain: 'blog.zr-wang.com',
+  domain: 'zr-wang.com',
   author: 'Zerui Wang',
 
   // open graph metadata (optional)
@@ -50,17 +51,17 @@ export default siteConfig({
   //navigationStyle: 'default'
   navigationStyle: 'custom',
   navigationLinks: [
-    {
-      title: 'Home',
-      pageId: 'Xinwuyun-s-blog-e706da73001b49d08ce551388aa5045e'
-    },
-    {
-      title: 'About',
-      pageId: 'About-66237998075a4eb198898f00aeb0c5e1'
-    },
-    {
-      title: 'Contact',
-      pageId: 'Contact-25d7e7dfc81749aca58486405379c7f5'
-    }
+    // {
+    //   title: 'Home',
+    //   pageId: 'Xinwuyun-s-blog-e706da73001b49d08ce551388aa5045e'
+    // },
+    // {
+    //   title: 'About',
+    //   pageId: 'About-66237998075a4eb198898f00aeb0c5e1'
+    // },
+    // {
+    //   title: 'Contact',
+    //   pageId: 'Contact-25d7e7dfc81749aca58486405379c7f5'
+    // }
   ]
 })
