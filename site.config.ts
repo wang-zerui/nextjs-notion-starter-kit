@@ -9,15 +9,15 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'xinwuyun blog',
+  name: 'Zerui's blog',
   domain: 'blog.zr-wang.com',
   author: 'Zerui Wang',
 
   // open graph metadata (optional)
-  description: 'xinwuyun\'s blog',
+  description: 'Zerui\'s blog',
 
   // social usernames (optional)
-  github: 'xinwuyun',
+  github: 'wang-zerui',
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
 
@@ -52,7 +52,7 @@ export default siteConfig({
   navigationLinks: [
     {
       title: 'Home',
-      pageId: 'Xinwuyun-s-blog-e706da73001b49d08ce551388aa5045e'
+      pageId: 'Zerui-s-blog-e706da73001b49d08ce551388aa5045e'
     },
     {
       title: 'About',
