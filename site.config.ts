@@ -9,7 +9,7 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Zerui's blog',
+  name: 'Zerui\'s blog',
   domain: 'blog.zr-wang.com',
   author: 'Zerui Wang',
 
