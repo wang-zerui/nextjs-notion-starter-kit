@@ -1,0 +1,27 @@
+name: Auto Commit
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # 每天 UTC 时间 00:00 触发
+
+jobs:
+  auto-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Make a change
+        run: |
+          date > auto-commit.txt # 生成一个包含当前日期的文件
+
+      - name: Commit and push changes
+        run: |
+          git add .
+          git commit -m "Auto commit on $(date)"
+          git push
